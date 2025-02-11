@@ -52,10 +52,10 @@ public class SendOTPService {
             message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
 
             // Set Subject: header field
-            message.setSubject("File Hyder OTP");
+            message.setSubject("File Hide OTP");
 
             // Now set the actual message
-            message.setText("Your One time Password for File Hyder app is " + genOTP);
+            message.setText("Your One time Password for File Hide app is " + genOTP);
 
             System.out.println("sending...");
             // Send message
